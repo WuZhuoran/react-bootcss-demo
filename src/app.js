@@ -5,11 +5,8 @@ import ReactDom from 'react-dom'
 
 const IndexBox = require('./Index.jsx')
 
-ReactDom.render(
-  (
+ReactDom.render((
     <div>
-      <IndexBox />
+        <IndexBox/>
     </div>
-  ),
-  document.getElementById('index')
-);
+), document.getElementById('index'));

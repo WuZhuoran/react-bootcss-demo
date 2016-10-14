@@ -41,7 +41,7 @@ var Index = React.createClass({
                             </ButtonToolbar>
                             <ButtonToolbar className="nav navbar-nav">
                                 <Button className="navbar-brand hidden-sm" bsStyle="link" href="#" target="_blank">ListItem-1</Button>
-                              <Button className="navbar-brand hidden-sm" bsStyle="link" href="#containers">ListItem-2</Button>
+                                <Button className="navbar-brand hidden-sm" bsStyle="link" href="#containers">ListItem-2</Button>
                             </ButtonToolbar>
                             <ButtonToolbar className="nav navbar-nav navbar-right hidden-sm">
                                 <Button className="navbar-brand hidden-sm" bsStyle="link" href="#">ListItem-Right-1</Button>
@@ -53,7 +53,7 @@ var Index = React.createClass({
                 <Grid id="containers" className="jumbotron masthead">
                     <Grid className="container">
                         <h1>Title Header H1</h1>
-                      <p>This is the subtitle of Header H1</p>
+                        <p>This is the subtitle of Header H1</p>
                         <p className="masthead-button-links">
                             <Button className="btn btn-lg btn-primary btn-shadow" href="#containers" bsStyle="primary">Tookit (V0.1.0)</Button>
                         </p>
@@ -64,12 +64,12 @@ var Index = React.createClass({
                         <ul className="bc-social-buttons">
                             <li className="social-qq">
                                 <i className="fa fa-qq"></i>
-                              QQ<span id="qqgroup">xxxxxxx</span>
+                                QQ<span id="qqgroup">xxxxxxx</span>
                             </li>
                             <li className="social-weibo">
                                 <a href="#" title="weibo" target="_blank">
                                     <i className="fa fa-weibo"></i>
-                                  Weibo</a>
+                                    Weibo</a>
                             </li>
                         </ul>
                     </Grid>
@@ -79,7 +79,7 @@ var Index = React.createClass({
 
                     <Grid className="projects-header page-header">
                         <h2>Title Header h2</h2>
-                      <p>This is the subtitle of Header H2</p>
+                        <p>This is the subtitle of Header H2</p>
                     </Grid>
 
                     <Grid className="row">
@@ -92,7 +92,7 @@ var Index = React.createClass({
 
                                 <h3>
                                     <a href="/codec.html" title="itme" target="_blank">Itme-1<br/>
-                                  <small>by @oliver</small>
+                                        <small>by @oliver</small>
                                     </a>
                                 </h3>
                                 <p>
@@ -112,7 +112,9 @@ var Index = React.createClass({
                                 <h4>
                                     <img src={require('./resources/img/logo.png')}/>
                                 </h4>
-                                <p>All the projects listed above were collected by <a href="#">Oliver</a></p>
+                                <p>All the projects listed above were collected by
+                                    <a href="#">Oliver</a>
+                                </p>
                             </div>
                             <div className="col-sm-6  col-lg-5 col-lg-offset-1">
                                 <div className="row about">
